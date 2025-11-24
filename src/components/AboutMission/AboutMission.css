@@ -1,0 +1,31 @@
+.about-mission{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-mision-head{
+    margin-left: 130px;
+    color: rgb(66, 62, 62);
+}
+
+.about-mision-head h3{
+    font-size: 17px;
+}
+.about-mision-head h2{
+    margin-top: 40px;
+    font-size: 32px;
+    width: 35%;
+}
+
+.about-mision-head p{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.about-mission img{
+    margin-right: 60px;
+    border-radius: 20px;
+    
+}

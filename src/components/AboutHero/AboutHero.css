@@ -1,0 +1,15 @@
+.about-hero{
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.about-hero h1{
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.about-hero p{
+    margin-top: 60px;
+    font-size: 23px;
+    width: 70%;
+    margin-left: -30px;
+}
