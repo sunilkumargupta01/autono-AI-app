@@ -1,0 +1,36 @@
+.home-number{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.home-number-side{
+    margin-top: 190px;
+    margin-left: 30px;
+}
+.home-number-side h3{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(46, 44, 44);
+}
+
+.list{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+}
+
+.number-list h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(24, 23, 23);
+}
+.number-list hr{
+    margin-top: 17px;
+}
+.number-list p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 200;
+    color: rgb(70, 68, 68);
+}

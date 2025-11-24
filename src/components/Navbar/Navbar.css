@@ -1,0 +1,59 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  gap: 650px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  /* margin-bottom: 40px; */
+}
+nav h1 {
+  font-size: 25px;
+  margin-left: 50px;
+  background: transparent;
+  margin-top: 30px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  gap: 45px;
+  background: transparent;
+  margin-top: 30px;
+  
+}
+nav ul li {
+  list-style: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: rgba(255, 166, 0, 0.589);
+}
+a{
+    text-decoration: none;
+    background: transparent;
+    color: black;
+}
+.nav-button{
+    width: 130px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.nav-button:hover{
+    background: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: ease-in-out 0.3s;
+}

@@ -1,0 +1,74 @@
+.home-careers {
+  margin-top: 1px;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  height: 620px;
+}
+
+.home-career-heading {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.home-career-heading h3 {
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.home-career-heading h2 {
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 100;
+  width: 50%;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+  margin-top: 45px;
+}
+
+.button:hover {
+  background: white;
+  color: black;
+}
+
+.home-career-side-heading{
+    border: 1px solid white;
+    margin-top: 60px;
+    width: 650px;
+    height: 500px;
+    margin-right: 150px;
+    border-radius: 15px;
+}
+.home-career-side-heading h3{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.home-career-side-heading h4{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 200;
+    color: gray;
+}
+.home-career-side-heading p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 65%;
+}
+.home-career-side-heading button{
+    margin-left: 50px;
+    margin-top: 80px;
+}

@@ -1,0 +1,49 @@
+.home-approach {
+  background-image: url(../../assets/homepic10.avif);
+  height: 600px;
+}
+
+.black-div-content {
+  background: black;
+  color: white;
+  width: 35%;
+  height: 600px;
+  margin-left: 100px;
+  border-radius: 20px;
+  padding-top: 90px;
+  padding-left: 80px;
+}
+.black-div-content h3 {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.black-div-content h2 {
+  margin-top: 45px;
+  font-size: 25px;
+  font-weight: 300;
+  width: 60%;
+}
+
+.black-div-content p {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 70%;
+}
+
+.black-div-content button {
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+  margin-top: 45px;
+}
+
+.black-div-content button:hover{
+    background: white;
+    color: black;
+}

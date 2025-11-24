@@ -1,0 +1,42 @@
+.home-time {
+  margin-top: 70px;
+}
+
+.home-time-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-time-heading {
+  margin-top: 130px;
+  margin-left: 200px;
+}
+
+.home-time-heading h1 {
+  font-size: 40px;
+  font-weight: 200;
+  width: 50%;
+}
+
+.home-time-heading p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(75, 73, 73);
+  width: 70%;
+}
+
+.home-time-heading button {
+  margin-top: 45px;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.home-time-heading button:hover {
+  background: black;
+  color: white;
+  transition: ease-in-out 0.3s;
+}

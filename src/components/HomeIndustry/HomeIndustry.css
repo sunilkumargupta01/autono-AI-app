@@ -1,0 +1,49 @@
+.home-industry {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  height: 600px;
+}
+
+.home-industry-heaing {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.home-industry-heaing h3 {
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.home-industry-heaing h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 200;
+  width: 10%;
+}
+
+.home-industry-heaing p {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 50%;
+}
+
+.industry-image{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.special-image{
+    margin-top: 30px;
+}
+.special-image img{
+    width: 100px;
+}
+.industry-image-list p{
+    margin-top: 20px;
+}
