@@ -1,59 +1,87 @@
+/* -------------------------
+   DEFAULT (Desktop)
+-------------------------- */
+
 nav {
   display: flex;
-  flex-direction: row;
-  margin-top: 0;
-  gap: 650px;
-  background-color: white;
+  justify-content: space-between; /* Spread left and right */
+  align-items: center;
+  background: white;
+  padding: 20px 30px;
   position: fixed;
   top: 0;
+  width: 100%;
   z-index: 9999;
-  /* margin-bottom: 40px; */
 }
-nav h1 {
-  font-size: 25px;
-  margin-left: 50px;
-  background: transparent;
-  margin-top: 30px;
+
+nav h1 a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 6px;
+  font-size: 24px;
 }
+
 nav ul {
   display: flex;
   flex-direction: row;
-  margin-right: 80px;
-  gap: 45px;
-  background: transparent;
-  margin-top: 30px;
-  
+  gap: 35px;
+  align-items: center;
 }
+
 nav ul li {
   list-style: none;
-  background: transparent;
-  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-button {
+  background: black;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.hamburger {
+  display: none; /* Hidden on desktop */
+  font-size: 30px;
   cursor: pointer;
 }
-nav ul li a:hover {
-  color: rgba(255, 166, 0, 0.589);
-}
-a{
-    text-decoration: none;
-    background: transparent;
-    color: black;
-}
-.nav-button{
-    width: 130px;
-    height: 30px;
-    border: none;
-    outline: none;
-    background: black;
-    color: white;
-    border-radius: 7px;
-    font-size: 17px;
-    cursor: pointer;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-.nav-button:hover{
+
+/* -------------------------
+   MOBILE (Under 768px)
+-------------------------- */
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; 
+  }
+ 
+  nav ul {
+    position: absolute;
+    top: 70px;
+    right: -100%; 
+    width: 200px;
     background: white;
-    color: black;
-    border: 1.5px solid black;
-    transition: ease-in-out 0.3s;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  nav ul.open {
+    right: 0; 
+  }
+
+  nav h1 a {
+    font-size: 20px;
+  }
 }

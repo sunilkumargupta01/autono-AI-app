@@ -3,10 +3,9 @@
   background: none;
 }
 
-.home-hero img{
+.home-hero img {
   width: 100%;
   height: 900px;
-   object-position: 100% 70%;
 }
 .home-hero h1 {
   font-size: 60px;
@@ -22,6 +21,24 @@
   font-size: 27px;
   color: white;
   background: none;
-   margin-left: 30px;
-   width: 30%;
+  margin-left: 30px;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .home-hero h1 {
+    font-size: 60px;
+    width: 30%;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-top: -350px;
+    color: white;
+  }
+  .home-hero p {
+    font-size: 27px;
+    color: white;
+    background: none;
+    margin-left: 30px;
+    width: 30%;
+  }
 }
