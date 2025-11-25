@@ -47,3 +47,28 @@
     background: white;
     color: black;
 }
+
+@media (max-width: 768px){
+  .home-approach{
+    margin-top: 60px;
+  }
+  .black-div-content {
+  width: 85%;
+  height: 600px;
+  margin-left: 35px;
+  border-radius: 20px;
+  padding-top: 90px;
+  padding-left: 80px;
+}
+
+.black-div-content h2 {
+  font-size: 20px;
+}
+
+.black-div-content p {
+  font-size: 15px;
+}
+.black-div-content button{
+  margin-left: 30px;
+}
+}

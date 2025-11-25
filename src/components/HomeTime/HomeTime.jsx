@@ -24,7 +24,7 @@ const HomeTime = () => {
       </div>
       <div className="home-time-div">
         <div className="image">
-          <img src={homepic4} alt="pic4" />
+          <img  src={homepic4} alt="pic4" />
         </div>
         <div className="home-time-heading">
         <h1>PERCEPTION ENABLED</h1>

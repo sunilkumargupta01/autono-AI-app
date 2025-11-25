@@ -40,3 +40,39 @@
   color: white;
   transition: ease-in-out 0.3s;
 }
+
+@media (max-width: 768px) {
+  .home-time-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-time-heading {
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  .home-time-heading h1 {
+    font-size: 40px;
+    font-weight: 200;
+    width: 90%;
+  }
+
+  .home-time-heading p {
+    width: 80%;
+  }
+  .image img{
+    width: 80%;
+    margin-left: 100px;
+  }
+ 
+  .home-time-heading button{
+    margin-left: 20px;
+  }
+  
+
+
+
+
+  
+  
+}

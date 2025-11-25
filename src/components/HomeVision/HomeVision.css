@@ -1,73 +1,89 @@
-.home-vision{
-    margin-top: 77px;
+.home-vision {
+  margin-top: 77px;
 }
 
-.home-vision-first{
-    display: flex;
-    flex-direction: row;
+.home-vision-first {
+  display: flex;
+  flex-direction: row;
 }
-.home-vision-heading{
-    display: flex;
-    flex-direction: column;
+.home-vision-heading {
+  display: flex;
+  flex-direction: column;
 }
-.home-vision-heading1{
-    background: black;
-    color: white;
-    height: 840px;
-}
-
-.home-vision-heading1 h3{
-    margin-left: 120px;
-    margin-top: 200px;
-    font-weight: 100;
+.home-vision-heading1 {
+  background: black;
+  color: white;
+  height: 840px;
 }
 
-.home-vision-heading1 h2{
-    margin-left: 120px;
-    margin-top: 40px;
-    width: 45%;
-    font-size: 27px;
-    font-weight: 200;
-}
-.home-vision-heading1 p{
-    margin-left: 120px;
-    margin-top: 70px;
-    font-size: 20px;
-    font-weight:lighter;
-    width: 50%;
+.home-vision-heading1 h3 {
+  margin-left: 120px;
+  margin-top: 200px;
+  font-weight: 100;
 }
 
-.home-vision-heading2{
-    background: white;
-    color: rgb(75, 73, 73);
+.home-vision-heading1 h2 {
+  margin-left: 120px;
+  margin-top: 40px;
+  width: 45%;
+  font-size: 27px;
+  font-weight: 200;
+}
+.home-vision-heading1 p {
+  margin-left: 120px;
+  margin-top: 70px;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 50%;
+}
+
+.home-vision-heading2 {
+  background: white;
+  color: rgb(75, 73, 73);
 }
 
 .home-vision-heading-second2 {
-    margin-top: 140px;
+  margin-top: 140px;
 }
 
-.home-vision-heading-second2 h1{
-    margin-left: 120px;
-    font-size: 40px;
-    font-weight: 200;
-    width: 50%;
-    color: black;
+.home-vision-heading-second2 h1 {
+  margin-left: 120px;
+  font-size: 40px;
+  font-weight: 200;
+  width: 50%;
+  color: black;
 }
-.home-vision-heading-second2 p{
-    margin-top: 30px;
+.home-vision-heading-second2 p {
+  margin-top: 30px;
 }
-.home-vision-heading-second2 button{
-    margin-left: 120px;
-    margin-top: 45px;
-    width: 150px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 17px;
+.home-vision-heading-second2 button {
+  margin-left: 120px;
+  margin-top: 45px;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 17px;
 }
-.home-vision-heading-second2 button:hover{
-    background: black;
-    color: white;
-    transition: ease-in-out 0.3s;
+.home-vision-heading-second2 button:hover {
+  background: black;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+@media (max-width: 768px) {
+  .home-vision-first {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-vision-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-image img{
+    width: 100%;
+    height: 500px;
+    
+  }
 }

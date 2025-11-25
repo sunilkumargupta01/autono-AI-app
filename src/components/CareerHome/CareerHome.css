@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .about-hero .h1 {
+    display: none;
+  }
+  .about-hero h1{
+    font-size: 25px;
+  }
+  .about-hero p{
+    display: none;
+  }
+}

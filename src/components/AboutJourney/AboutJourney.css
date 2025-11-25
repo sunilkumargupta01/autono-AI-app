@@ -1,48 +1,89 @@
-.about-journey{
-    margin-top: 120px;
-    margin-left: 120px;
-    margin-bottom: 50px;
+.about-journey {
+  margin-top: 120px;
+  margin-left: 120px;
+  margin-bottom: 50px;
 }
-.about-journey h2{
-    font-size: 23px;
-    font-weight: 200;
-    color: rgb(43, 41, 41);
+.about-journey h2 {
+  font-size: 23px;
+  font-weight: 200;
+  color: rgb(43, 41, 41);
 }
-.about-journey-main{
+.about-journey-main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.about-journey-main-list {
+  border: 1px solid rgb(75, 72, 72);
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+  margin-left: 70px;
+}
+
+.about-journey-main-list h1 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(219, 95, 24);
+}
+.about-journey-main-list hr {
+  width: 10%;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.about-journey-main-list p {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  width: 70%;
+}
+
+.journey-second {
+  margin-left: 400px;
+}
+
+@media (max-width: 768px) {
+  .about-journey {
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+
+  .about-journey-main {
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    margin-top: 80px;
-}
-
-.about-journey-main-list{
-    border: 1px solid rgb(75, 72, 72);
-    width: 50%;
-    height: 300px;
-    border-radius: 20px;
-    margin-left: 70px;
-}
-
-.about-journey-main-list h1{
+    gap: 10px;
     margin-top: 30px;
-    margin-left: 50px;
-    font-size: 40px;
-    font-weight: 200;
-    color: rgb(219, 95, 24);
-}
-.about-journey-main-list hr{
-    width: 10%;
-    margin-left: 50px;
-    margin-top: 15px;
-}
+  }
 
-.about-journey-main-list p{
-    margin-left: 50px;
-    margin-top: 30px;
-    font-size: 18px;
+  .about-journey-main-list {
     width: 70%;
-}
+    height: 290px;
+    margin-left: 10px;
+  }
 
-.journey-second{
-    margin-left: 400px;
+  .about-journey-main-list h1 {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .about-journey-main-list hr {
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .about-journey-main-list p {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .journey-second {
+    margin-left: 30px;
+  }
 }

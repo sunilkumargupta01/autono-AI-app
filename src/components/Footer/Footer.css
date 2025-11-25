@@ -70,21 +70,54 @@ ul {
   color: white;
   margin-bottom: 20px;
 }
-.input-part button:hover{
-    background: white;
-    color: black;
-    border: 1px solid black;
-    transition: ease-in-out 0.3s;
+.input-part button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  transition: ease-in-out 0.3s;
 }
-.footer-part-list2 span{
-    font-size: 18px;
-    margin-left: 10px;
+.footer-part-list2 span {
+  font-size: 18px;
+  margin-left: 10px;
 }
 
-.copyright{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       margin-top: 70px;
-       font-size: 20px;
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  footer {
+  margin-left: 60px;
+}
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .footer-part-list1 {
+    gap: 40px;
+  }
+  
+  .footer-part-list2 p {
+   margin-right: 30px;
+  }
+
+
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  li{
+    font-size: 15px;
+  }
 }
